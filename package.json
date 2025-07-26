@@ -2,14 +2,14 @@
   "name": "reactcicd",
   "private": true,
   "version": "0.0.0",
-  "type": "module","homepage": "https://cmrai.pottasiri.github.io/reactcicd216",
+  "type": "module","home":"https://cmraipottasiri.github.io/reactcicd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview","predeploy":"npm run build",
-"deploy":"gh -pages -d dist",
-
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
